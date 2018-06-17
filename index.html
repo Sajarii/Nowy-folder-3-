@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+
+<head>
+    <title>Grupa B</title>
+    <meta charset=utf-8>
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="skrypt.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+    <link rel="icon" href="car.png" type="image/gif" sizes="16x16">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+
+    <script>
+        document.getElementsByClassName("zdj")[0].addEventListener("click",pokaAuto,)
+            function pokaAuto(Autoo) {
+                var i;
+                var x = document.getElementsByClassName("info");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                document.getElementById(Autoo).style.display = "block";
+            };
+
+    </script>
+</head>
+
+<body>
+    <h1 style=" font-size: 60px;">GROUP B</h1>
+    <p class="po">The Golden Era Of Rallying</p>
+
+    <nav>
+        <h2 class="cieka">Informacje</h2>
+        <h2 class="cieka">Ciekawostki</h2>
+    </nav>
+
+
+    <div id="inf-quatro" class="info">sdadadasds</div>
+    <div id="inf-s4" class="info">132131</div>
+    <div id="inf-lancia" class="info">weqeq</div>
+    <div id="inf-206" class="info">dasda</div>
+
+
+    <img id="1" class="zdj" src="quatrro.jpg" />
+    <img id="2" class="zdj" src="s4.jpg" />
+    <img id="3" class="zdj" src="lancia.jpg" />
+    <img id="4" class="zdj" src="206.jpg" />
+
+
+
+
+
+    <h2 class="cos">Kierowcy</h2>
+
+    <img class="zdj" src="pan.jpg" height="27.5%" width="27.5%" />
+    <img class="zdj" src="pani.jpg" />
+
+
+
+
+
+
+
+</body>
+
+</html>

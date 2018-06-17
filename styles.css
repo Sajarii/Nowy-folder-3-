@@ -1,0 +1,71 @@
+body {
+    background-image: url(piasek.jpg);
+    text-align: center;
+}
+
+.zdj {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 25px;
+    width: 350px;
+    opacity: 0.75;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.zdj:hover {
+    box-shadow: 0 0 2px 1px rgba(239, 12, 102, 2);
+    opacity: 1;
+    transition: 1s ease -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -moz-transform: scale(1.1);
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+
+}
+
+h2 {
+    font-family: 'Acme', sans-serif;
+
+}
+
+.tlo {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("tlo.jpg");
+
+}
+
+.info {
+    background-color: darkkhaki;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    right: 0;
+    margin: 100px;
+    display: none;
+
+}
+
+.active {
+    display: block;
+
+}
+
+.info:active {
+    background-color: aqua;
+}
+
+h1:hover {
+    color: cornsilk;
+}
+
+h2:hover {
+    color:antiquewhite;
+}
+.po {
+   font-family: 'Lobster', cursive;
+}
