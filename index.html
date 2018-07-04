@@ -12,15 +12,16 @@
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
 
     <script>
-        document.getElementsByClassName("zdj")[0].addEventListener("click",pokaAuto,)
-            function pokaAuto(Autoo) {
-                var i;
-                var x = document.getElementsByClassName("info");
-                for (i = 0; i < x.length; i++) {
-                    x[i].style.display = "none";
-                }
-                document.getElementById(Autoo).style.display = "block";
-            };
+        document.getElementsByClassName("zdj")[0].addEventListener("click",function pokaAuto()); 
+
+        function pokaAuto(Autoo){
+            var i;
+            var x = document.getElementsByClassName("info");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            document.getElementById(Autoo).style.display = "block";
+        };
 
     </script>
 </head>
